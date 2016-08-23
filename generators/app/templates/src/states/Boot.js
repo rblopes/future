@@ -8,8 +8,19 @@
  */
 
 import assets from '../assets';
+//import 'phaser-state-transition-plugin';
 
 export default class Boot extends Phaser.State {
+
+  init(){
+    //Initialize plugins here. Remember to include the plugin in your package.json's dependencies, Example:
+    //"dependencies": {
+    //"phaser": "^2.6.1",
+    //"phaser-state-transition-plugin": "^0.1.6"
+    //}
+    //run npm install, and add "import 'plugin-name'" at the top of this file.
+    //this.game.stateTransition = this.game.plugins.add(Phaser.Plugin.StateTransition);
+  }
 
   preload() {
     // Point the Phaser Asset Loader to where your game assets live.
